@@ -14,7 +14,7 @@
 //配置域名,域名只修改此处。
 //如果wordpress没有安装在网站根目录请加上目录路径,例如："www.watch-life.net/blog"
 var DOMAIN = "www.whuanle.cn";
-var WEBSITENAME="面向云技术架构 痴者工良"; //网站名称
+var WEBSITENAME="面向云技术架构"; //网站名称
 var PAGECOUNT='20'; //每页文章数目
 var WECHAT='微信号：whuanlex'; //客服联系方式,如 微信号：iamxjb 或 邮箱：iamxjb@sina.com
 

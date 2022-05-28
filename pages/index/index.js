@@ -70,7 +70,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '“' + webSiteName + '”小程序,基于微慕WordPress版小程序构建',
+      title: webSiteName,
       path: 'pages/index/index',
       success: function (res) {
         // 转发成功
@@ -83,7 +83,7 @@ Page({
   // 自定义分享朋友圈
   onShareTimeline: function () {
     return {
-      title: '“' + webSiteName + '”小程序,基于微慕WordPress版小程序构建',
+      title:  webSiteName,
       path: 'pages/index/index',
 
     }

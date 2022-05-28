@@ -194,7 +194,8 @@ Page({
     //this.ShowHideMenu();
     console.log(res);
     return {
-      title: '分享"' + webSiteName + '"的文章：' + this.data.detail.title.rendered,
+      //       title: '分享"' + webSiteName + '"的文章：' + this.data.detail.title.rendered,
+      title: this.data.detail.title.rendered,
       path: 'pages/detail/detail?id=' + this.data.detail.id,
       imageUrl: this.data.detail.post_full_image,
       success: function (res) {
